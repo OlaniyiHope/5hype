@@ -69,8 +69,8 @@ const Elect = ({navigation}) => {
               fontSize: 16,
             }}></Text>
         </View>
-        <Tabs />
       </ScrollView>
+      <Tabs />
     </SafeAreaView>
   );
 };

@@ -176,8 +176,8 @@ const History = ({navigation}) => {
         <TouchableOpacity>
           <Button title="Continue" onPress={() => navigation.navigate(Limit)} />
         </TouchableOpacity>
-        <Tabs />
       </ScrollView>
+      <Tabs />
     </SafeAreaView>
   );
 };

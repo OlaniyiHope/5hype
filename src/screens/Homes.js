@@ -11,6 +11,7 @@ import Button from '../components/Button';
 import {SIZES, FONTS, icons, images} from '../constants2';
 import COLORS from '../conts/colors';
 import Wallet from './wallet/Wallet';
+
 const Homes = ({navigation}) => {
   const featuresData = [
     {

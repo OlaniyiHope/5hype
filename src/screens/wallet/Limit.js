@@ -59,7 +59,7 @@ const Limit = () => {
                     color: '#333',
                     fontSize: 22,
                   }}>
-                  Limit
+                  Account Limit
                 </Text>
               </View>
 
@@ -153,8 +153,8 @@ const Limit = () => {
             </View>
           </View>
         </View>
-        <Tabs />
       </ScrollView>
+      <Tabs />
     </SafeAreaView>
   );
 };

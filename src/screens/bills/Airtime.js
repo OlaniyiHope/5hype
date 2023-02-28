@@ -64,8 +64,8 @@ const Airtime = ({navigation}) => {
             Already have account ?Login
           </Text>
         </View>
-        <Tabs />
       </ScrollView>
+      <Tabs />
     </SafeAreaView>
   );
 };

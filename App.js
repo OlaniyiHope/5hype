@@ -48,6 +48,11 @@ const App = () => {
       <Stack.Navigator screenOptions={{headerShown: false}}>
         <Stack.Screen
           name="/"
+          component={HomeScreen}
+          screenOptions={{headerShown: false}}
+        />
+        <Stack.Screen
+          name="Register"
           component={Register}
           screenOptions={{headerShown: false}}
         />
@@ -71,11 +76,7 @@ const App = () => {
           component={OnboardingScreen}
           screenOptions={{headerShown: false}}
         />
-        <Stack.Screen
-          name="HomeScreen"
-          component={HomeScreen}
-          screenOptions={{headerShown: false}}
-        />
+
         <Stack.Screen
           name="Login"
           component={Login}

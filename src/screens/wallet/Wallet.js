@@ -14,7 +14,8 @@ import What from '../bills/What';
 
 const Wallet = ({navigation}) => {
   return (
-    <SafeAreaView style={{flex: 1, backgroundColor: COLORS.white}}>
+    <SafeAreaView
+      style={{flex: 1, backgroundColor: COLORS.white, paddingHorizontal: 20}}>
       <View
         style={{
           height: 120,
@@ -30,12 +31,12 @@ const Wallet = ({navigation}) => {
           }}>
           <Text
             style={{
-              fontSize: 14,
+              fontSize: 18,
               color: COLORS.white,
               textAlign: 'center',
               paddingTop: 20,
             }}>
-            Total balance
+            Total credit point
           </Text>
           <Text
             style={{
@@ -44,7 +45,7 @@ const Wallet = ({navigation}) => {
               textAlign: 'center',
               paddingTop: 20,
             }}>
-            ₦56,000
+            150
           </Text>
         </View>
       </View>
