@@ -1,10 +1,10 @@
 import React from 'react';
 import {SafeAreaView, Text, StyleSheet, TouchableOpacity} from 'react-native';
-import Register from './auth/register/Register';
+import Login from './auth/login/Login';
 
 const HomeScreen = ({navigation}) => {
   setTimeout(() => {
-    navigation.navigate(Register);
+    navigation.navigate(Login);
   }, 9000);
 
   return (

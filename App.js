@@ -6,7 +6,6 @@ import OnboardingScreen from './src/screens/OnboardingScreen';
 import {StatusBar} from 'react-native';
 import COLORS from './src/screens/consts/colors';
 import HomeScreen from './src/screens/HomeScreen';
-import Login from './src/screens/login/Login';
 import Act from './src/screens/act/Act';
 import OnBoardScreen2 from './src/screens/OnBoardScreen2';
 import HomeScreen2 from './src/screens/HomeScreen2';
@@ -31,6 +30,7 @@ import Profile from './src/screens/profile/Profile';
 import Legal from './src/screens/profile/Legal';
 import History from './src/screens/profile/History';
 import Limit from './src/screens/wallet/Limit';
+import Login from './src/screens/auth/login/Login';
 const Stack = createStackNavigator();
 
 const theme = {
@@ -49,6 +49,11 @@ const App = () => {
         <Stack.Screen
           name="/"
           component={HomeScreen}
+          screenOptions={{headerShown: false}}
+        />
+        <Stack.Screen
+          name="Login"
+          component={Login}
           screenOptions={{headerShown: false}}
         />
         <Stack.Screen
@@ -77,11 +82,7 @@ const App = () => {
           screenOptions={{headerShown: false}}
         />
 
-        <Stack.Screen
-          name="Login"
-          component={Login}
-          screenOptions={{headerShown: false}}
-        />
+      
         <Stack.Screen
           name="Act"
           component={Act}
